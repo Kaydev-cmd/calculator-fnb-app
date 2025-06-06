@@ -9,3 +9,8 @@ const digitBtnPressed = (button) => {
     document.getElementById("inputBox").value = currentValue + button;
   }
 };
+
+const btnACPressed = () => {
+  document.getElementById("inputBox").value = 0;
+  newLine = true;
+};
