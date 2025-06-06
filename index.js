@@ -22,3 +22,26 @@ const operatorBtnPressed = (operator) => {
   value1 = parseInt(document.getElementById("inputBox").value);
   newLine = true;
 };
+
+const equalsBtnPressed = () => {
+  const value2 = parseInt(document.getElementById("inputBox").value);
+  let result;
+
+  switch (currentOperator) {
+    case "+":
+      result = value1 + value2;
+      break;
+    case "-":
+      result = value1 - value2;
+      break;
+    case "*":
+      result = value1 * value2;
+      break;
+    case "/":
+      result = value1 / value2;
+      break;
+  }
+  document.getElementById("inputBox").value = result;
+  value1 = 0;
+  newLine = true;
+};
