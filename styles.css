@@ -27,3 +27,15 @@ td {
   color: #fff;
   border: 0px;
 }
+
+.digitBtn {
+  background-color: #807e80;
+}
+
+.operatorBtn {
+  background-color: #ff9e66;
+}
+
+.ACBtn {
+  background-color: #656165;
+}
