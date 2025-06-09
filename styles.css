@@ -18,3 +18,12 @@ td {
   width: 25vw;
   border: 1px solid #4e494d;
 }
+
+#inputBox {
+  background-color: #4e494d;
+  text-align: right;
+  width: 90%;
+  font-size: 2em;
+  color: #fff;
+  border: 0px;
+}
